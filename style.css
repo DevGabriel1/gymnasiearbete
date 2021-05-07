@@ -12,7 +12,7 @@ body {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    background: rgb(147, 204, 133);
+    background: rgb(226, 0, 0);
     transition: 0.7s;
     
 }
@@ -61,3 +61,135 @@ nav{
 
 }
 
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.campus-col{
+    float: left;
+    width: 49%;
+    padding: 5px;
+    border-radius: 100px;
+    
+}
+
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.campus-col img{
+    width: 100%;
+    
+}
+
+.layer{
+    background: transparent;
+    height: 455px;
+    width: 524px;
+    position: absolute;
+    top: 297px;
+    left: 145px;
+    transition: 00.5s;
+}
+
+.layer2{
+    background: transparent;
+    height: 455px;
+    width: 524px;
+    position: absolute;
+    top: 297px;
+    
+}
+
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
+
+ } 
+
+ .layer2:hover{
+    background: rgba(226, 0, 0, 0.7);
+
+ } 
+
+
+
+ /*   Text dyker upp första rutan  */
+
+.layer h3{
+    width: auto;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 00.5s;
+}
+
+.layer:hover h3{
+    bottom: 70%;
+    opacity: 1;
+}
+
+.layer p{
+    width: auto;
+    font-weight: 100;
+    color: transparent;
+    font-size: 12px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 00.5s;
+    
+}
+
+.layer:hover p{
+    bottom: 55%;
+    opacity: 1;
+    color: #fff;
+}
+
+/* Text dyker upp andra rutan*/
+
+.layer2 h3{
+    width: auto;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 00.5s;
+}
+
+.layer2:hover h3{
+    bottom: 70%;
+    opacity: 1;
+}
+
+.layer2 p{
+    width: auto;
+    font-weight: 100;
+    color: transparent;
+    font-size: 12px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 00.5s;
+    
+}
+
+.layer2:hover p{
+    bottom: 55%;
+    opacity: 1;
+    color: #fff;
+}
